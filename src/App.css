@@ -36,6 +36,12 @@ img {
   font-size: .8em;
 }
 
+.tip {
+  text-align: center;
+  font-size: .5em;
+  margin-top: 1em;
+}
+
 .breadcrumb {
   list-style: none;
   display: flex;
@@ -51,7 +57,7 @@ img {
 }
 
 .breadcrumb li {
-  margin: 0 .5em 0 0.5em;
+  margin: 0 .5em 1.5em 0.5em;
   color: black;
 }
 
@@ -61,6 +67,10 @@ img {
   margin-right: 1em;
 }
 
-.PhotoList {
-  border: 3px solid black;
+.photoList {
+  margin: 1em;
+}
+
+.listTitle {
+  margin-top: 1em;
 }

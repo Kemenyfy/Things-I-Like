@@ -14,24 +14,26 @@ class PhotoList extends Component {
         } else {
             return (
                 <div>
-                    <div className="productList">
-                    <header className="cardTitle">{_categoryData.title}</header>
-                    <p className="categoriesParagraph">{_categoryData.description}</p>
-                    <section className="productImagesList">
-                        <section className="listImages">
-                            {
-                                _categoryData.photos.map((photo, i) => {
-                                    return <section className="imagesList" key={i}>
-                                        <p>{photo.title}</p>
-                                        <Link to={`/${_category}/${i}`} key={i}>
-                                            <img className="cardImages" src={photo.imageURL} alt={photo.title} key={i} />
-                                        </Link>
-                                    </section>
-                                })
-                            }
+                    <div className="photoList">
+                        <header className="title">{_categoryData.title}</header>
+                        <p className="paragraph">{_categoryData.description}</p>
+                        <p className="paragraph">Some of my favorite teams are:</p>
+                        <section className="">
+                            <section className="">
+                                {
+                                    _categoryData.photos.map((photo, i) => {
+                                        return <section className="" key={i}>
+                                            <p className="listTitle">{photo.title}</p>
+                                            <Link to={`/${_category}/${i}`} key={i}>
+                                                <img className="" src={photo.imageURL} alt={photo.title} key={i} />
+                                            </Link>
+                                        </section>
+                                    })
+                                }
+                            </section>
+                            <p className="tip">(Tip: Click any image to know more)</p>
                         </section>
-                    </section>
-                </div>
+                    </div>
                 </div>
             );
         }
