@@ -2,6 +2,7 @@
     "calcio": {
       "title": "Calcio",
       "description": "Soccer is my favorite sport. I've been playing it since I was a kid. My favorite position is Goalkeeper.",
+      "favorites": "Some of my favorite teams/players are:",
       "photos": [
         {
           "title": "FC Bayern Munich",
@@ -10,40 +11,54 @@
         },
         {
           "title": "Die Mannschaft",
-          "imageURL": "https://www.dfb.de/fileadmin/_processed_/201710/csm_151766-logo_mannschaft_neu_6db365bec0.jpg"
+          "imageURL": "https://www.dfb.de/fileadmin/_processed_/201710/csm_151766-logo_mannschaft_neu_6db365bec0.jpg",
+          "description": "The German national football team is the men's football team that has represented Germany in international competition since 1908. It is governed by the German Football Association, founded in 1900."
+        },
+        {
+          "title": "Manuel Neuer",
+          "imageURL": "https://www.freewalldownload.com/manuel-neuer/wondeful-manuel-neuer-saving-goal-hd-wallpaper.jpg",
+          "description": "Manuel Peter Neuer (born 27 March 1986) is a German professional footballer who plays as a goalkeeper and captain for both German club Bayern Munich and the Germany national team. Neuer has been described as a 'sweeper-keeper' because of his unique playing style and speed when rushing off his line to anticipate opponents; he is also known for his quick reflexes, excellent shot-stopping abilities, strength, long throwing range, command of his area, and accurate control and distribution of the ball."
         }
       ]
     },
     "coding": {
       "title": "Coding",
       "description": "I enjoy code. Making awesome websites and programs is a passion. I am currently a JS dev and I use React.js for most of my projects.",
+      "favorites": "Some of my favorites languages/frameworks are:",
       "photos": [
         {
           "title": "JavaScript",
-          "imageURL": "https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/Templating-Engines-for-JavaScript.png"
+          "imageURL": "https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/Templating-Engines-for-JavaScript.png",
+          "description": "JavaScript, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm."
   
         },
         {
-          "title": "Cormac the Druid, work in progress",
-          "imageURL":
-            "https://instagram.ftpf1-1.fna.fbcdn.net/vp/fbe274a10d9f125721b996b1c900a38a/5BFA5B76/t51.2885-15/e35/37190638_643058652730656_5948932439748378624_n.jpg",
-          "sourceURL": "https://www.instagram.com/p/Bl09Fg3jM54/?taken-by=ambethia"
+          "title": "React",
+          "imageURL": "https://cdn-images-1.medium.com/max/1200/1*DVkLFr953djSo0q6cA0-kg.png",
+          "description": "In computing, React (also known as React.js or ReactJS) is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies."
+  
         }
       ]
     },
     "videGames": {
       "title": "Video Games",
       "description": "I've been playing Video Games since my Dad bought a Commodore Vic 20 back in the days. I still have fond memories of my games with the Commodore 64, Commodore Amiga and ColecoVision.",
+      "favorites": "Some of my favorite games are:",
       "photos": [
         {
           "title": "Sid Meier's Civ Series",
-          "imageURL": "https://static.dlgamer.com/assets/357/26/screenshots/sid_meiers_civilization_vi_1.jpg"
+          "imageURL": "https://static.dlgamer.com/assets/357/26/screenshots/sid_meiers_civilization_vi_1.jpg",
+          "description": "Sid Meier's Civilization is a turn-based strategy 4X video game created by Sid Meier and Bruce Shelley for MicroProse in 1991. The game's objective is to 'Build an empire to stand the test of time': it begins in 4000 BC and the players attempt to expand and develop their empires through the ages from the ancient era until modern and near-future times."
         },
         {
-          "title": "Risk",
-          "imageURL":
-            "https://instagram.ftpf1-1.fna.fbcdn.net/vp/fbe274a10d9f125721b996b1c900a38a/5BFA5B76/t51.2885-15/e35/37190638_643058652730656_5948932439748378624_n.jpg",
-          "sourceURL": "https://www.instagram.com/p/Bl09Fg3jM54/?taken-by=ambethia"
+          "title": "Hearts of Iron Series",
+          "imageURL": "https://images.gamewatcherstatic.com/image/file/8/bf/91488/2.jpg",
+          "description": "Hearts of Iron is a grand strategy video game developed by Paradox Development Studio and published by Strategy First. It was released for Microsoft Windows in 2002. A Mac OS version was released by Virtual Programming, followed by the Platinum edition in 2004. Set in the years 1936-1948, players control any one nation as World War II unfolds, and form alliances with other nations."
+        },
+        {
+          "title": "Total War Series",
+          "imageURL": "https://vignette.wikia.nocookie.net/totalwar/images/d/d3/The-art-of-total-war-08.jpg/revision/latest?cb=20150909171013",
+          "description": "Total War is a series of strategy games developed by The Creative Assembly for personal computers. They combine turn-based strategy and resource management, with real-time tactical control of battles. The first of the series, Shogun: Total War was released in June 2000. The most recent major game released was Total War Saga: Thrones of Britannia on 3 May 2018. The series has sold over 20 million copies."
         }
       ]
     }

@@ -17,7 +17,7 @@ class PhotoList extends Component {
                     <div className="photoList">
                         <header className="title">{_categoryData.title}</header>
                         <p className="paragraph">{_categoryData.description}</p>
-                        <p className="paragraph">Some of my favorite teams are:</p>
+                        <p className="paragraph">{_categoryData.favorites}</p>
                         <section className="">
                             <section className="">
                                 {
