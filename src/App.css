@@ -1,26 +1,7 @@
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
-  height: 150px;
+  height: 100px;
   padding: 20px;
 }
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
 
 img {
   display: block;
@@ -30,15 +11,56 @@ img {
 
 .body{
   display: flex;
-
+  flex-direction: column;
 }
 
 .image-card{
   margin:1em;
-  border:1px grey solid;
   padding:1em;
 }
 
 .image-card>header{
   font-size: 2em;
+}
+
+.Link {
+  text-decoration-line: none;
+  color: black;
+}
+
+.title {
+  font-size: 1.6em;
+}
+
+.paragraph {
+  font-size: .8em;
+}
+
+.breadcrumb {
+  list-style: none;
+  display: flex;
+  margin: 1em 0 0 -1em;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: rgb(126, 126, 126);
+}
+
+.breadcrumb li {
+  margin: 0 .5em 0 0.5em;
+  color: black;
+}
+
+.breadcrumb li+li::before {
+  color: #b5b5b5;
+  content: "\0002f";
+  margin-right: 1em;
+}
+
+.PhotoList {
+  border: 3px solid black;
 }

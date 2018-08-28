@@ -11,11 +11,10 @@ class PhotoDetail extends Component {
         const _photoData = hobbies[_category].photos[_index]
 
         return (
-            <div>
+            <div className="">
             <header>{_photoData.title}</header>
             <img src={_photoData.imageURL} alt={_photoData.title} />
             <a href={_photoData.sourceURL}>Source</a>
-
             </div>
         );
     }

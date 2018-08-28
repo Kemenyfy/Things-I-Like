@@ -9,9 +9,9 @@ import PhotoList from './Components/PhotoList';
 import PhotoDetail from './Components/PhotoDetail';
 
 const routes = {
-  '/': 'Home',
-  '/:category': 'Photo List', 
-  '/:category/:id': 'Photo Details'
+  '/': 'Things I Like',
+  '/:category': 'List', 
+  '/:category/:id': 'Details'
 }
 
 class App extends Component {
@@ -20,8 +20,8 @@ class App extends Component {
       <Router>
         <div className="App">
           <header className="App-header">
-            <h1 className="App-title">Things I Likes</h1>
-            <h3 className="">Created by Somebody/Somehow/Maybe</h3>
+            <h1 className="App-title">Things I Like</h1>
+            <h5 className="">Created by Somebody/Somehow/Maybe</h5>
           </header>
           <Breadcrumbs mappedRoutes={routes} />
           <Switch>
